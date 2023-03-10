@@ -41,7 +41,7 @@ export const App=()=>{
       name: name,
       number: number,
     };
-    setContacts(prevState => [...prevState.contacts, contact]);
+    setContacts(prevState => [...prevState, contact]);
   };
 
   const changeFilter = e => {
